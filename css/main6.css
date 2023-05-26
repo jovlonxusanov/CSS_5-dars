@@ -1,0 +1,39 @@
+.a{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(20deg,blue,lightblue);
+}
+.b{
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+.c{
+    width: 10%;
+    height: 25%;
+    border-radius: 20%;
+    background-color: lightgreen;
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    animation-name: a;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes a {
+    0%{
+        transform: translate(0,-200px);
+    }
+    25%{
+        transform: rotateY(180deg) ;
+    }
+
+}
+

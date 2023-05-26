@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.warp{
+    width: 600px;
+    background: linear-gradient(90deg,blue,green,yellow,orange,red);
+    padding: 20px;
+    margin: auto;
+    margin-top: 500px;
+}
+h1{
+    display: block;
+    color: grey;
+    text-align: center;
+    font-size: 50px;
+}

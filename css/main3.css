@@ -1,0 +1,22 @@
+.warp{
+    width: 1200px;
+    height: 200px;
+    background: linear-gradient(180deg,crimson,dodgerblue,mediumspringgreen);
+    padding: 30px;
+    margin: auto ;
+
+}
+h1{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.warp1{
+    width: 1200px;
+    height: 200px;
+    background: linear-gradient(90deg,orange,yellow,green,blue,purple);
+    padding: 30px;
+    margin: auto ;
+    margin-top: 100px;
+
+}
